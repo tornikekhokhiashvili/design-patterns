@@ -78,7 +78,6 @@ public class Iterators {
                 if (!hasNext()) {
                     throw new java.util.NoSuchElementException();
                 }
-
                 int element = array[index];
                 count++;
 
@@ -86,7 +85,6 @@ public class Iterators {
                     count = 0;
                     index++;
                 }
-
                 return element;
             }
         };
@@ -118,7 +116,6 @@ public class Iterators {
                             rowIndex = 0;
                             columnIndex++;
                         }
-
                         return cell;
                     }
                 };
